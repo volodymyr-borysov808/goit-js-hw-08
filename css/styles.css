@@ -1,0 +1,28 @@
+ul, ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+    max-width: 1128px;
+    margin: 0 auto;
+}
+
+.gallery-link:hover {
+    cursor: url('../images/cursor.svg') 44 44, auto;
+}
+
+.gallery-image {
+    width: 360px;
+    height: 200px;
+}
+
